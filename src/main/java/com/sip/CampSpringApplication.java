@@ -24,10 +24,14 @@ public class CampSpringApplication {
 		//new File(ArticleController.uploadDirectory).mkdir();
 		Path path = Paths.get(ArticleController.uploadDirectory);
 		System.out.println("Camp Devops Started");
+
 		System.out.println("instruction 1 dev ");
 		System.out.println("instruction 2 dev ");
 		System.out.println("instruction 3 dev ");
 		System.out.println("instruction 4 dev ");
+
+		System.out.println("Instruction 5 sur la branche test");
+
 		try{
 			Files.createDirectory(path);
 		}
