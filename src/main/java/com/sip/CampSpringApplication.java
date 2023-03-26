@@ -34,6 +34,8 @@ public class CampSpringApplication {
 		System.out.println("Instruction 6 sur la branche master");
 
 		System.out.println("Instruction 6 sur la branche test");
+
+		System.out.println("Instruction 7 sur la branche test");
 		try{
 			Files.createDirectory(path);
 		}
