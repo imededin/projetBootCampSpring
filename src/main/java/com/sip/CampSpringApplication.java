@@ -23,6 +23,7 @@ public class CampSpringApplication {
 		SpringApplication.run(CampSpringApplication.class, args);
 		//new File(ArticleController.uploadDirectory).mkdir();
 		Path path = Paths.get(ArticleController.uploadDirectory);
+		System.out.println("Camp Devops Started");
 		try{
 			Files.createDirectory(path);
 		}
